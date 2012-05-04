@@ -1,0 +1,12 @@
+<apex:page docType="html-5.0" sidebar="false" showHeader="false" standardStylesheets="false" cache="false" >
+    <apex:composition template="DeviceJSTemplate">
+        <apex:define name="body">
+          <ul>
+            <li><a href="?device=phone">Phone Version</a></li>
+            <li><a href="?device=tablet">Tablet Version</a></li>
+          </ul>
+          
+          <h1> This is the Desktop Version</h1>
+        </apex:define>
+    </apex:composition>    
+</apex:page>

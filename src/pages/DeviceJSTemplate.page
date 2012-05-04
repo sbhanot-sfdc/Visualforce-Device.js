@@ -1,0 +1,13 @@
+<apex:page sidebar="false" showHeader="false" standardStylesheets="false" cache="false">
+    <head>
+          <link rel="alternate" href="/apex/DesktopVersion" id="desktop" media="only screen and (touch-enabled: 0)"/>
+          <link rel="alternate" href="/apex/PhoneVersion" id="phone" media="only screen and (max-device-width: 640px)"/>
+          <link rel="alternate" href="/apex/TabletVersion" id="tablet" media="only screen and (min-device-width: 641px)"/>
+        
+          <meta name="viewport" content="width=device-width, user-scalable=no"/>
+          <script src="{!URLFOR($Resource.Device_js)}"/>          
+    </head>
+   <body>
+        <apex:insert name="body"/>
+    </body>
+</apex:page>
